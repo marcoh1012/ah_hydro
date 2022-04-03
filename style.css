@@ -1,0 +1,19 @@
+.navbar{
+    background-image: url(imgs/carbon.jpeg);
+    background-repeat: repeat; 
+}
+
+.logo{
+    max-height: 100px;
+}
+
+
+#myCarousel{
+    min-height: 750px !important;
+    background: rgb(135,19,19);
+    background: radial-gradient(circle, rgba(135,19,19,1) 55%, rgba(0,0,0,1) 100%);
+}
+
+.carousel-pic{
+    max-height:750px;
+}
