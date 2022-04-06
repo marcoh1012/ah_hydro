@@ -11,7 +11,7 @@
 <body>
     
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow">
       <div class="container-fluid justify-content-center">
         <a class="navbar-brand" href="/">
           <img src="imgs/Logo.JPG" class="logo" alt="logo">
@@ -22,7 +22,7 @@
   
   <main>
   
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="myCarousel" class="carousel slide shadow" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -93,35 +93,38 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
   
-    <div class="container">
+    <div class="container body">
   
       <!-- Three columns of text below the carousel -->
       <h2>
           Popular:
       </h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="rounded-circle" width="160" height="160" role="img" aria-placeholder="circle" preserveAspectRatio="xMidYMid slice" focusable="false" src="imgs/dye.jpg">
-          <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+      <div class="row justify-content-center" >
+        <div class="col-lg-4 d-flex justify-content-center">
+          <div class="text-center">
+            <img class="rounded-circle" width="160" height="160" role="img" aria-placeholder="circle" preserveAspectRatio="xMidYMid slice" focusable="false" src="imgs/dye.jpg">
   
           <h2>Tie Dye</h2>
-          <p>Sentence Detail</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="rounded-circle" width="160" height="160" role="img" aria-placeholder="circle" preserveAspectRatio="xMidYMid slice" focusable="false" src="imgs/thunder.jpg">
-          <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+          <p>Colorful 60'2 Style Tie Die</p>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-center">
+          <div class="text-center">
+            <img class="rounded-circle" width="160" height="160" role="img" aria-placeholder="circle" preserveAspectRatio="xMidYMid slice" focusable="false" src="imgs/venom.jpg">
   
-          <h2>Thunder</h2>
-          <p>PSentence Detail</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="rounded-circle" width="160" height="160" role="img" aria-placeholder="circle" preserveAspectRatio="xMidYMid slice" focusable="false" src="imgs/cartoon.jpg">
-          <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+            <h2>Venom</h2>
+            <p>Stunning Colorful Venom Design w/ multiple Simbiotes</p>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-center">
+          <div class="text-center">
+            <img class="rounded-circle" width="160" height="160" role="img" aria-placeholder="circle" preserveAspectRatio="xMidYMid slice" focusable="false" src="imgs/cartoon.jpg">
   
           <h2>Cartoon</h2>
-          <p>Sentence Detail</p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+          <p>Colorful and Funny Simpsons Carttons</p>
+          </div>
+        </div>
+      </div>
   
   
       <!-- START THE FEATURETTES -->
@@ -131,12 +134,20 @@
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">HydroGraphics: </h2>
-          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+          <p>Available HydroGraphic Designs</p>
+          <ul class="lead">
+            <li>Carbon Fiber (Black,Red)</li>
+            <li>Cartoon</li>
+            <li>Lightning</li>
+            <li>Tie Dye</li>
+            <li>Venom</li>
+            <li>More Added Weekly</li>
+          </ul>
+          <p><a href="#contact">Contact</a> me with any special requests.</p>
+          <!-- Add button to page with all available designs -->
         </div>
         <div class="col-md-5">
           <img class="img-fluid mx-auto" width="500" height="500" src="imgs/thunder_square.jpg" role="img" aria-label="'thunger-square-img" alt="hydro-img">
-          <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
-  
         </div>
       </div>
   
@@ -145,7 +156,16 @@
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
           <h2 class="featurette-heading">Paint</h2>
-          <p class="lead">list of paint colors</p>
+          <p class="lead">Spray paint colors available </p>
+          <ul>
+            <li>Black</li>
+            <li>Red</li>
+            <li>Green</li>
+            <li>Gold</li>
+            <li>White</li>
+            <li>More</li>
+          </ul>
+          <p><a href="#contact">Contact</a> me for other colors</p>
         </div>
         <div class="col-md-5 order-md-1">
           <img class="img-fluid mx-auto" width="500" height="500" src="imgs/red_square.jpg" role="img" aria-label="'red-square-img" alt="paint-img">
@@ -159,34 +179,61 @@
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Parts</h2>
-          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores magni possimus suscipit illo, in quidem nihil exercitationem natus quia qui adipisci minima nemo illum error facere excepturi saepe distinctio animi?</p>
+          <p class="lead">Hydro Dipping and Painting are available for many parts. Take a look at the gallery for examples. Common Parts:</p>
+          <ul>
+            <li>Car Interior Parts</li>
+            <li>Calipers</li>
+            <li>Wheel Covers</li>
+            <li>Engine Covers</li>
+            <li>Phone Cases</li>
+            <li><a href="#contact">Ask</a> for others</li>
+          </ul>
         </div>
         <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-  
+          <img class="img-fluid mx-auto" width="500" height="500" src="imgs/gold_calipers.JPG" role="img" aria-label="'red-square-img" alt="part-img">
         </div>
       </div>
-  
-      <hr class="featurette-divider">
+
   
       <hr class="featurette-divider">
       <div class="row">
-        <h3> Gallery of more pictures</h3>
+        <h3> Gallery</h3>
       </div>
 
       <hr class="featurette-divider">
-      <div class="row">
-        <h3> Contact Info:</h3>
+      <div id="contact">
+        <h3> Contact:</h3>
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-center">
+              <div class="text-center">
+                <a href="mailto: herrera052801@gmail.com">
+                  <img src="imgs/envelope.svg"  alt="email-svg">
+                </a>
+                <p>herrera052801@gmail.com</p>
+              </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="text-center">
+              <a href="https://www.instagram.com/ah_hydro/" target="_blank">
+                <img src="imgs/instagram.svg" alt="instagram-svg">
+              </a>
+              <p><a href="https://www.instagram.com/ah_hydro/" target="_blank">@ah_hydro</a></p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- /END THE FEATURETTES -->
   
     </div><!-- /.container -->
   
-  
+    <hr class="featurette-divider">
     <!-- FOOTER -->
     <footer class="container d-flex justify-content-center">
-      <p>© 2022 - Site created/mainted by: <a href="http://marcoherrera.org"> Marco Herrera</p>
+      <div class="text-center">
+        <p style="margin-bottom: 0;">© 2022</p> 
+        <p style="font-size:smaller">Site created/mainted by: <a href="http://marcoherrera.org"> Marco Herrera</p>
+      </div>
     </footer>
   </main>
     

@@ -12,8 +12,35 @@
     min-height: 750px !important;
     background: rgb(135,19,19);
     background: radial-gradient(circle, rgba(135,19,19,1) 55%, rgba(0,0,0,1) 100%);
+    
 }
 
 .carousel-pic{
     max-height:750px;
+}
+
+body{
+    background-color: #6b0407;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: White;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.email-icon{
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+li::before{
+    content: "\00BB     ";
 }
