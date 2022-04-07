@@ -44,3 +44,12 @@ li{
 li::before{
     content: "\00BB     ";
 }
+
+.gallery-container img{
+    width: 100%;
+}
+
+.gallery-container .col{
+    margin:0 !important;
+    padding: 0 !important;
+}
