@@ -17,6 +17,7 @@
 
 .carousel-pic{
     max-height:750px;
+    width: auto;
 }
 
 body{
@@ -49,7 +50,19 @@ li::before{
     width: 100%;
 }
 
+.gallery-container video{
+    width: 100%;
+}
+
 .gallery-container .col{
     margin:0 !important;
     padding: 0 !important;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
