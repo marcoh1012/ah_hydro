@@ -1,302 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_body.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=PT+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/1e13342f0a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="imgs/logo.ico" type="image/icon type">
-    <title>AH Hydro</title>
+    <title>AH Wraps</title>
 </head>
+
+
 <body>
-    
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow">
-      <div class="container-fluid justify-content-center">
-        <a class="navbar-brand" href="/">
-          <img src="imgs/Logo.JPG" class="logo" alt="logo">
-        </a>
-      </div>
-    </nav>
-  </header>
-  
-  <main>
-  
-    <div id="myCarousel" class="carousel slide shadow" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
-      </div>  
-      <div class="carousel-inner">
-        <div class="carousel-item">
-          
-          <div class="container">
-                <img src="imgs/IMG_1117.JPG" class="carousel-pic d-block w-100" alt="pic-1">
-          </div>
-        </div>
-        <div class="carousel-item active">
-  
-          <div class="container">
-            <img src="imgs/IMG_2356.PNG" class="carousel-pic d-block w-100" alt="pic-1">
-            <div class="carousel-caption">
-              <h1>AH Hydro</h1>
-              <p><a class="btn btn-lg btn-danger" href="#contact">Contact</a></p>
+        
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-md col-12" id="navbar-container" >
+            <a class="navbar-brand" href="/">
+                <img src="imgs/Logo.JPG" height="60" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-items">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class=" nav-link active" href='/'>Home</a></li>
+                    <li class="nav-item"><a class="  nav-link" href="/wraps.html">Vinyl Wrapping</a></li>
+                    <li class="nav-item"><a class="  nav-link" href="/hydro.html">HydroGraphics</a></li>
+                    <li class="nav-item"><a class=" nav-link" href="/spray_paint.html">Spray Paint</a></li>
+                    <li class="nav-item"><a class=" nav-link" href="#contact">Contact</a></li>
+                </ul>
             </div>
-          </div>
-        </div>
-        <div class="carousel-item justify-content-center">
-          <div class="container">
-          <img src="imgs/gallery/controller_dead.jpg" class="carousel-pic d-block w-100" alt="pic-1">
-          </div>
-          <div class="container">
-            <div class="carousel-caption text-end">
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="container">
-            <img src="imgs/52-green.jpg" class="carousel-pic w-100" alt="pic-1">
-            </div>
-          <div class="container">
-            <div class="carousel-caption text-end">
-            </div>
-          </div>
-          
-        </div>
-        <div class="carousel-item">
-          <div class="container">
-          <img src="imgs/thunder.png" class="carousel-pic d-block w-100" alt="pic-1">
-          </div>
-          <div class="container">
-            <div class="carousel-caption text-end">
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="container">
-          <img src="imgs/minions.jpg" class="carousel-pic d-block w-100" alt="pic-1">
-          </div>
-          <div class="container">
-            <div class="carousel-caption text-end">
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  
-  
-    <div class="container body">
-  
-      <!-- Three columns of text below the carousel -->
-      <h2>
-          Popular:
-      </h2>
-      <div class="row justify-content-center" >
-        <div class="col-lg-4 d-flex justify-content-center">
-          <div class="text-center">
-            <img class="rounded-circle" width="160" height="160" role="img" aria-placeholder="circle" preserveAspectRatio="xMidYMid slice" focusable="false" src="imgs/dye.jpg">
-  
-          <h2>Tie Dye</h2>
-          <p>Colorful 60's Style Tie Die</p>
-          </div>
-        </div>
-        <div class="col-lg-4 d-flex justify-content-center">
-          <div class="text-center">
-            <img class="rounded-circle" width="160" height="160" role="img" aria-placeholder="circle" preserveAspectRatio="xMidYMid slice" focusable="false" src="imgs/venom.jpg">
-  
-            <h2>Venom</h2>
-            <p>Stunning Colorful Venom Design w/ multiple Simbiotes</p>
-          </div>
-        </div>
-        <div class="col-lg-4 d-flex justify-content-center">
-          <div class="text-center">
-            <img class="rounded-circle" width="160" height="160" role="img" aria-placeholder="circle" preserveAspectRatio="xMidYMid slice" focusable="false" src="imgs/cartoon.jpg">
-  
-          <h2>Cartoon</h2>
-          <p>Colorful and Funny Simpsons Cartoons</p>
-          </div>
-        </div>
-      </div>
-  
-  
-      <!-- START THE FEATURETTES -->
-  
-      <hr class="featurette-divider">
-  
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">HydroGraphics: </h2>
-          <p>Available HydroGraphic Designs</p>
-          <ul class="lead">
-            <li>Carbon Fiber (Black,Red)</li>
-            <li>Cartoon</li>
-            <li>Lightning</li>
-            <li>Tie Dye</li>
-            <li>Venom</li>
-            <li>More Added Weekly</li>
-          </ul>
-          <p><a href="#contact">Contact</a> me with any special requests.</p>
-          <!-- Add button to page with all available designs -->
-        </div>
-        <div class="col-md-5">
-          <img class="img-fluid mx-auto" width="500" height="500" src="imgs/thunder_square.jpg" role="img" aria-label="'thunger-square-img" alt="hydro-img">
-        </div>
-      </div>
-  
-      <hr class="featurette-divider">
-  
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Paint</h2>
-          <p class="lead">Spray paint colors available </p>
-          <ul>
-            <li>Black</li>
-            <li>Red</li>
-            <li>Green</li>
-            <li>Gold</li>
-            <li>White</li>
-            <li>More</li>
-          </ul>
-          <p><a href="#contact">Contact</a> me for other colors</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <img class="img-fluid mx-auto" width="500" height="500" src="imgs/red_square.jpg" role="img" aria-label="'red-square-img" alt="paint-img">
-  
-        </div>
-      </div>
-  
-      <hr class="featurette-divider">
-  
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Parts</h2>
-          <p class="lead">Hydro Dipping and Painting are available for many parts. Take a look at the gallery for examples. Common Parts:</p>
-          <ul>
-            <li>Car Interior Parts</li>
-            <li>Calipers</li>
-            <li>Wheel Covers</li>
-            <li>Engine Covers</li>
-            <li>Phone Cases</li>
-            <li><a href="#contact">Ask</a> for others</li>
-          </ul>
-        </div>
-        <div class="col-md-5">
-          <!-- <img class="img-fluid mx-auto" width="500" height="500" src="imgs/gold_calipers.JPG" role="img" aria-label="'red-square-img" alt="part-img"> -->
-          <video autoplay loop muted width="300">
-            <source src="imgs/gallery/controller.mp4" type=video/mp4>
-          </video>
-        </div>
-      </div>
+        </nav>
+    </header>
+    <section id="hero" class="d-flex align-items-center">
 
-  
-      <hr class="featurette-divider">
-      <div>
-        <h3> Gallery</h3>
-        <div class="gallery-container row">
-          <!-- Column 1 of pics -->
-         <div class="col">
-          <img src="imgs/gallery/red_thunder_car.JPG" alt="red_mustang_thunder">
-          <video autoplay loop muted>
-            <source src="imgs/minions_vid.MP4" type=video/mp4>
-          </video>
-          <img src="imgs/gallery/4.JPG" alt="1">
-          <img src="imgs/gallery/thunder.png" alt="thunder">
-          <img src="imgs/gallery/11.jpg" alt="1">
-          <img src="imgs/gallery/2.jpg" alt="1">
-          <img src="imgs/gallery/mirror_covers.JPG" alt="mirror_covers">
-          <img src="imgs/gallery/helmet.JPG" alt="helmet">
-          <video autoplay loop muted>
-            <source src="imgs/gallery/helmet.MP4" type=video/mp4>
-          </video>
-          <img src="imgs/gallery/carbon_dash.jpg" alt="carbon-dash">
-         </div>
-         <!-- Column 2 of pics -->
-         <div class="col">
-           <img src="imgs/gallery/cartoon_ps4.jpg" alt="cartoon_ps4">
-          <img src="imgs/gallery/red_money.JPG" alt="money_red_sample">
-          <img src="imgs/gallery/8.JPG" alt="1">
-          <img src="imgs/gallery/5.JPG" alt="1">
-          <img src="imgs/gallery/7.jpg" alt="1">
-          <img src="imgs/gallery/samples.jpg" alt="samples">
-          <img src="imgs/gallery/red-1.jpg" alt="red">
-          <video autoplay loop muted>
-            <source src="imgs/gallery/IMG_2888.mp4" type=video/mp4>
-          </video>
-          <img src="imgs/gallery/shoes.jpg" alt="shoes">
-         </div>
-         <!-- Column 3 of pics -->
-         <div class="col">
-          <img src="imgs/gallery/day_dead_parts.jpg" alt="day_of_dead_controller_parts">
-          <img src="imgs/gallery/controller_dead_back.jpg" alt="day_of_the_dead_controller_back">
-          <img src="imgs/gallery/Halloween.jpg" alt="Halloween">
-          <img src="imgs/gallery/3.jpg" alt="1">
-          <img src="imgs/gallery/6.JPG" alt="1">
-          <img src="imgs/gallery/10.jpg" alt="1">
-          <img src="imgs/gallery/ps4-venom.jpg" alt="ps4_venom">
-          <img src="imgs/gallery/red-2.jpg" alt="red-2">
-          <img src="imgs/gallery/carbon-mirror.JPG" alt="carbon_mirror">
-          <img src="imgs/gallery/carbon-1-mirror.JPG" alt="carbon_mirror-2">
-         </div>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-      <div id="contact">
-        <h3> Contact:</h3>
-        <div class="row">
-          <div class="col-md-4 d-flex justify-content-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+              <h1>Welcome to AH Wraps</h1>
               <div class="text-center">
-                <a href="mailto: herrera052801@gmail.com">
-                  <img src="imgs/envelope.svg"  alt="email-svg">
-                </a>
-                <p>herrera052801@gmail.com</p>
+                <h3 style="padding-top:2em;"> Vinyl Wrapping, HydroGraphics, Spray Painting & More</h3>
+              <h3 >Free Quote </h3>
+              <div class="d-flex justify-content-center">
+                <a href="#contact" class="btn-lg btn-danger scrollto">Contact</a>
               </div>
-          </div>
-          <div class="col-md-4 d-flex justify-content-center">
-            <div class="text-center"><a href="tel:708-998-7230">
-              <img src="imgs/phone-call-icon.svg" alt="phone-call-svg"></a>
-              <p><span><a href="tel:708-998-7230">(708) 998-7230</a></span></p>
+              </div>
+              
+              
             </div>
-          </div>
-          <div class="col-md-4 d-flex justify-content-center">
-            <div class="text-center">
-              <a href="https://www.instagram.com/ah_hydro/" target="_blank">
-                <img src="imgs/instagram.svg" alt="instagram-svg">
-              </a>
-              <p><a href="https://www.instagram.com/ah_hydro/" target="_blank">@ah_hydro</a></p>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+              <img src="imgs/mustang_test.png" style="transform: scaleX(-1);" class="img-fluid animated" alt="">
             </div>
           </div>
         </div>
-      </div>
-
-      <!-- /END THE FEATURETTES -->
-  
-    </div>
-  
-    <hr class="featurette-divider">
-    <!-- FOOTER -->
-    <footer class="container d-flex justify-content-center">
-      <div class="text-center">
-        <p style="margin-bottom: 0;">© 2022</p> 
-        <p style="font-size:smaller">Site created/mainted by: <a href="https://marcoherrera.org"> Marco Herrera</p>
-      </div>
-    </footer>
-  </main>
     
+      </section>
+    <div id="mainInfo container" >
+            <div class="container">
+                <h2 >Project Spotlight:</h2>
+                <div class="d-flex">
+                    <div class="col-lg-5 row justify-content-center "> 
+                        <div class="spotlight-video">
+                            <video autoplay loop muted class="rouded-circle">
+                                <source src="imgs/bronco.mp4" type=video/mp4>
+                              </video>
+                        </div>
+                    </div>
+                    <div style="min-height: 100%; width: 100%; margin: auto;" class="text-center">
+                      <h3 style="text-decoration:underline"><span>2023 Ford Bronco Raptor</span></h3>
+                      <p style="font-size: 1.5em;"><span>Matte Black Vinyl Wrap</span></p>
+                      <p style="font-size:1.5em"><span>Full Car Wrap</span></p>
+                    </div>
+                </div>
+            </div>
+          </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+          <!-- Main Section -->
+          <div class="container body" style="padding-top: 5em;">
+            <div class="row justify-content-center" >
+              <div class="col-lg-4 d-flex justify-content-center">
+                <div class="text-center">
+                  <h2>Vynil Wrap</h2>
+                  <img class="rounded-square" width="100%" height="300vw" role="img" aria-placeholder="circle" preserveAspectRatio="xMidYMid slice" focusable="false" src="imgs/dodge.jpg">
+                  <ul style="padding-top: 2em;">
+                    <li>Transform Your Car</li>
+                    <li>Protect Your Paint</li>
+                    <li>Easily Replace</li>
+                    <li>Chrome Delete</li>
+                    <a class="btn btn-danger" role="button" href="/wraps.html">Gallery</a>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 d-flex justify-content-center">
+                <div class="text-center">
+                  <h2>Hydrographics</h2>
+                  <img class="rounded-square" width="100%" height="300vw" role="img" aria-placeholder="circle" preserveAspectRatio="xMidYMid slice" focusable="false" src="imgs/xbox-hydro.jpg">
+                  <ul style="padding-top: 2em;">
+                    <li>Perfect for Irregural Shapes/Objects</li>
+                    <li>Variety of Patterns</li>
+                    <li>Great For Gifts</li>
+                    <a class="btn btn-danger" role="button" href="/hydro.html">Gallery</a>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 d-flex justify-content-center">
+                <div class="text-center">
+                  <h2>Spray Painting</h2>
+                  <img class="rounded-square" width="100%" height="300vw" role="img" aria-placeholder="circle" preserveAspectRatio="xMidYMid slice" focusable="false" src="imgs/paint/caliper.JPG">
+                  <ul style="padding-top: 2em;">
+                    <li>Repair Scratches/Marks</li>
+                    <li>High Heat Caliper Paint</li>
+                    <li>Cost Effective</li>
+                    <a class="btn btn-danger" role="button" href="/spray_paint.html">Gallery</a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Section -->
+          <div class="container" style="padding-top: 3em;" id="contact">
+            <h3> Contact:</h3>
+            <div class="row">
+              <div class="col-md-4 d-flex justify-content-center">
+                  <div class="text-center">
+                    <a href="mailto: herrera052801@gmail.com">
+                      <img src="imgs/envelope.svg"  alt="email-svg">
+                    </a>
+                    <p>herrera052801@gmail.com</p>
+                  </div>
+              </div>
+              <div class="col-md-4 d-flex justify-content-center">
+                <div class="text-center"><a href="tel:708-998-7230">
+                  <img src="imgs/phone-call-icon.svg" alt="phone-call-svg"></a>
+                  <p><span><a href="tel:708-998-7230">(708) 998-7230</a></span></p>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex justify-content-center">
+                <div class="text-center">
+                  <a href="https://www.instagram.com/ah_wraps/" target="_blank">
+                    <img src="imgs/instagram.svg" alt="instagram-svg">
+                  </a>
+                  <p><a href="https://www.instagram.com/ah_wraps/" target="_blank">@ah_wraps</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    <div>
+
+    </div>
+
+            <hr class="featurette-divider">
+            <!-- FOOTER -->
+            <footer class="container d-flex justify-content-center">
+              <div class="footer text-center" style="font-size:smaller">
+                  Designed & Built By<br>
+                  <a href="htttp://marcoherrera.org/">Marco Herrera</a> <i class="far fa-copyright"></i> 2023 
+              </div>
+          </footer>
+
+
+            <!-- Scripts -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+            <script src="script.js"></script>
 </body>
+
 </html>
