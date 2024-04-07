@@ -104,6 +104,10 @@ li::before{
     max-height: 350px;
 }
 
+/* .wraps-gallery{
+    height: 500px;
+} */
+
 .img-overlay {
     position: relative;
     display: inline-block;
